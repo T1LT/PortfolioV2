@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import AboutSection from "@/components/Sections/AboutSection";
 import SkillsSection from "@/components/Sections/SkillsSection";
 import ProjectsSection from "@/components/Sections/ProjectsSection";
+import BlogPostsSection from "@/components/Sections/BlogPostsSection";
 import CopyEmailButton from "@/components/CopyEmailButton";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
@@ -100,7 +101,7 @@ export default function Home() {
             <AboutSection />
             <SkillsSection />
             <ProjectsSection />
-            <section className="font-bold text-xl">BLOG POSTS</section>
+            <BlogPostsSection />
           </div>
         </div>
       </div>

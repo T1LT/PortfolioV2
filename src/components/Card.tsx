@@ -16,12 +16,12 @@ const Card = ({ title, description, url, type, year, disabled }: CardProps) => {
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     if (disabled) return;
   };
-  
+
   return (
     <div
       className={`${
         disabled ? "cursor-not-allowed" : "cursor-pointer"
-      } px-6 py-8 my-2 group dark:border dark:border-[#252525] rounded-md hover:shadow-md hover:bg-neutral-100 hover:dark:bg-[rgb(45,45,45)] transition duration-300`}
+      } px-6 py-8 my-2 group rounded-md hover:shadow-md hover:bg-neutral-100 hover:dark:bg-[rgb(45,45,45)] transition duration-300`}
     >
       <a
         href={url}

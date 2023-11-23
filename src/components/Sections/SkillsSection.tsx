@@ -16,11 +16,11 @@ import {
   SiPostgresql,
   SiGit,
 } from "react-icons/si";
-import { FaArrowRight } from "react-icons/fa";
+// import { FaArrowRight } from "react-icons/fa";
 
 const SkillsSection = () => {
   return (
-    <section id="skills">
+    <section id="skills" className="mb-16">
       <h1 className="font-bold text-xl mb-8">
         <a href="#skills">SKILLS</a>
       </h1>
@@ -219,7 +219,7 @@ const SkillsSection = () => {
           </a>
         </div>
       </div>
-      <a
+      {/* <a
         href="/resume.pdf"
         target="_blank"
         rel="noreferrer"
@@ -227,7 +227,7 @@ const SkillsSection = () => {
       >
         <span className="text-lg font-semibold">View Full Resume</span>
         <FaArrowRight className="text-sm ml-2 group-hover:translate-x-2 transition-transform duration-300" />
-      </a>
+      </a> */}
     </section>
   );
 };

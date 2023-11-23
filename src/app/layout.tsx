@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} bg-white dark:bg-[#252525]`}>
+      <body className={`${inter.className} bg-white dark:bg-[rgb(30,30,30)]`}>
         <ToasterProvider />
         <Providers>{children}</Providers>
       </body>

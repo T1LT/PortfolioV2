@@ -1,6 +1,6 @@
 const AboutSection = () => {
   return (
-    <section id="about">
+    <section id="about" className="mb-16">
       <h1 className="font-bold mb-4 text-xl">
         <a href="#about">ABOUT ME</a>
       </h1>
@@ -29,7 +29,7 @@ const AboutSection = () => {
         tech. I went on to pursue a degree in Computer Science and that&apos;s
         where my journey into the depths of Web Development began.
       </p>
-      <p className="leading-relaxed mb-16 text-[#555] dark:text-neutral-300">
+      <p className="leading-relaxed text-[#555] dark:text-neutral-300">
         My other interests include{" "}
         <span className="text-black font-semibold dark:text-white">
           motorsports

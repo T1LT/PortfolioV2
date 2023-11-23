@@ -4,7 +4,7 @@ const BlogPostsSection = () => {
   return (
     <section id="blog">
       <h1 className="font-bold mb-4 text-xl">
-        <a href="#blog">Blog Posts</a>
+        <a href="#blog">BLOG POSTS</a>
       </h1>
       {/* FOR DEBUGGING PURPOSES ONLY */}
       <Card

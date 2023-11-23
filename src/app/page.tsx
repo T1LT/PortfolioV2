@@ -16,7 +16,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-between py-4 px-36">
         <div className="flex justify-evenly w-full h-full">
           {/* LEFT SECTION */}
-          <div className="w-2/5 h-full p-8 flex flex-col justify-between gap-48">
+          <div className="w-2/5 h-full p-8 flex flex-col justify-between gap-32">
             {/* LEFT TOP - HEADER*/}
             <div>
               <h1 className="font-bold text-5xl mb-2">
@@ -31,10 +31,19 @@ export default function Home() {
             </div>
             {/* LEFT MIDDLE - NAV LINKS */}
             <div className="flex flex-col gap-4">
-              <NavLink title="About Me" /> 
-              <NavLink title="Skills" /> 
+              <NavLink title="About Me" />
+              <NavLink title="Skills" />
               <NavLink title="Projects" />
               <NavLink title="Blog Posts" />
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center mb-16 text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
+              >
+                <span className="text-lg font-semibold">View Full Resume</span>
+                <FaArrowRight className="text-sm ml-2 group-hover:translate-x-2 transition-transform duration-300" />
+              </a>
             </div>
             {/* LEFT BOTTOM - CONTACT INFO */}
             <div className="flex gap-8">

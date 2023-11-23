@@ -6,15 +6,11 @@ import CopyEmailButton from "@/components/CopyEmailButton";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaArrowRight } from "react-icons/fa";
-import { Suspense } from "react";
-import NavbarSkeleton from "@/components/NavbarSkeleton";
 
 export default function Home() {
   return (
     <>
-      <Suspense fallback={<NavbarSkeleton />}>
-        <Navbar />
-      </Suspense>
+      <Navbar />
       <div className="flex flex-col items-center justify-between px-36">
         <div className="flex justify-evenly w-full h-full">
           {/* LEFT SECTION */}

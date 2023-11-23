@@ -11,14 +11,14 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col items-center justify-between px-36">
+      <div className="flex flex-col items-center justify-between py-4 px-36">
         <div className="flex justify-evenly w-full h-full">
           {/* LEFT SECTION */}
           <div className="w-2/5 h-full p-8 flex flex-col justify-between gap-48">
             {/* LEFT TOP - HEADER*/}
             <div>
               <h1 className="font-bold text-5xl mb-2">
-                <a href="/">Nishant Racherla</a>
+                <a href="#">Nishant Racherla</a>
               </h1>
               <h2 className="font-semibold text-xl mt-2">
                 Full-Stack Software Engineer

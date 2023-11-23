@@ -1,7 +1,9 @@
 const AboutSection = () => {
   return (
     <section id="about">
-      <h1 className="font-bold mb-4 text-xl">ABOUT ME</h1>
+      <h1 className="font-bold mb-4 text-xl">
+        <a href="#about">ABOUT ME</a>
+      </h1>
       <p className="leading-relaxed mb-4 text-[#555] dark:text-neutral-300">
         Friendly, neighborhood Software Engineer based in California with a
         drive to understand the theory behind Computer Science and master its
@@ -24,8 +26,8 @@ const AboutSection = () => {
           LTT
         </a>
         , and similar content creators, I was always interested in the latest
-        tech. I went on to pursue a degree in Computer Science and that&apos;s where
-        my journey into the depths of Web Development began.
+        tech. I went on to pursue a degree in Computer Science and that&apos;s
+        where my journey into the depths of Web Development began.
       </p>
       <p className="leading-relaxed mb-16 text-[#555] dark:text-neutral-300">
         My other interests include{" "}

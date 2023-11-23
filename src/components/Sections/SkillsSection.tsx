@@ -21,7 +21,9 @@ import { FaArrowRight } from "react-icons/fa";
 const SkillsSection = () => {
   return (
     <section id="skills">
-      <h1 className="font-bold text-xl mb-8">SKILLS</h1>
+      <h1 className="font-bold text-xl mb-8">
+        <a href="#skills">SKILLS</a>
+      </h1>
       <div className="grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-8 mb-8">
         <div className="text-neutral-500 hover:text-[#149ECA] transition duration-300">
           <a

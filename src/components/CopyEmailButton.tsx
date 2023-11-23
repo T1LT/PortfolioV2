@@ -10,7 +10,10 @@ const CopyEmailButton = () => {
   };
 
   return (
-    <button onClick={handleCopyEmail}>
+    <button
+      onClick={handleCopyEmail}
+      aria-label="Copy my email to your clipboard"
+    >
       <MdEmail className="text-4xl text-neutral-500 hover:text-neutral-900 dark:hover:text-white transition duration-300" />
     </button>
   );

@@ -31,7 +31,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiReact className="text-5xl" />
-            <h3>React</h3>
+            <h2>React</h2>
           </a>
         </div>
 
@@ -43,9 +43,9 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiNextdotjs className="text-5xl group-hover:text-black group-hover:bg-white rounded-full transition duration-300" />
-            <h3 className="group-hover:text-black group-hover:dark:text-white transition duration-300">
+            <h2 className="group-hover:text-black group-hover:dark:text-white transition duration-300">
               Next.js
-            </h3>
+            </h2>
           </a>
         </div>
 
@@ -57,7 +57,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiRedux className="text-5xl" />
-            <h3>Redux</h3>
+            <h2>Redux</h2>
           </a>
         </div>
 
@@ -69,7 +69,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiTypescript className="text-5xl" />
-            <h3>TypeScript</h3>
+            <h2>TypeScript</h2>
           </a>
         </div>
 
@@ -81,7 +81,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiJavascript className="text-5xl" />
-            <h3>JavaScript</h3>
+            <h2>JavaScript</h2>
           </a>
         </div>
 
@@ -93,7 +93,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4 text-center"
           >
             <SiTailwindcss className="text-5xl" />
-            <h3>Tailwind CSS</h3>
+            <h2>Tailwind CSS</h2>
           </a>
         </div>
 
@@ -105,7 +105,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiHtml5 className="text-5xl" />
-            <h3>HTML5</h3>
+            <h2>HTML5</h2>
           </a>
         </div>
 
@@ -117,7 +117,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiCss3 className="text-5xl" />
-            <h3>CSS3</h3>
+            <h2>CSS3</h2>
           </a>
         </div>
 
@@ -129,7 +129,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4 hover:text-[#1A202C] hover:dark:text-white transition duration-300"
           >
             <SiPrisma className="text-5xl" />
-            <h3>Prisma</h3>
+            <h2>Prisma</h2>
           </a>
         </div>
 
@@ -141,7 +141,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiNodedotjs className="text-5xl" />
-            <h3>Node.js</h3>
+            <h2>Node.js</h2>
           </a>
         </div>
 
@@ -153,7 +153,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiExpress className="text-5xl" />
-            <h3>Express</h3>
+            <h2>Express</h2>
           </a>
         </div>
 
@@ -165,7 +165,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4 text-center"
           >
             <SiRubyonrails className="text-5xl" />
-            <h3>Ruby on Rails</h3>
+            <h2>Ruby on Rails</h2>
           </a>
         </div>
 
@@ -177,7 +177,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiRuby className="text-5xl" />
-            <h3>Ruby</h3>
+            <h2>Ruby</h2>
           </a>
         </div>
 
@@ -189,7 +189,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiMongodb className="text-5xl" />
-            <h3>MongoDB</h3>
+            <h2>MongoDB</h2>
           </a>
         </div>
 
@@ -201,7 +201,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiPostgresql className="text-5xl" />
-            <h3>PostgreSQL</h3>
+            <h2>PostgreSQL</h2>
           </a>
         </div>
 
@@ -213,7 +213,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiGit className="text-5xl" />
-            <h3>Git</h3>
+            <h2>Git</h2>
           </a>
         </div>
       </div>

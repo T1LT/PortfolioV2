@@ -25,8 +25,16 @@ const Navbar = () => {
   return (
     <div className="w-full p-8 flex justify-between items-center sticky">
       <h1 className="text-neutral-800 dark:text-white font-bold">NR</h1>
-      <button onClick={handleClick} className="text-xl text-yellow-400">
-        {theme === "dark" ? <IoMoonSharp className="text-2xl"/> : <IoMdSunny className="text-2xl"/>}
+      <button
+        onClick={handleClick}
+        className="text-xl text-yellow-400"
+        aria-label="toggle dark mode/light mode"
+      >
+        {theme === "dark" ? (
+          <IoMoonSharp className="text-2xl" />
+        ) : (
+          <IoMdSunny className="text-2xl" />
+        )}
       </button>
     </div>
   );

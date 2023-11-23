@@ -8,7 +8,7 @@ const BlogPostsSection = () => {
       </h1>
       {/* FOR DEBUGGING PURPOSES ONLY */}
       <Card
-        title="Coming soon"
+        title="Coming Soon"
         url="http://localhost:3000/"
         type="blog"
         year={2023}

@@ -1,10 +1,19 @@
+import Card from "../Card";
+
 const BlogPostsSection = () => {
   return (
     <section id="blog">
       <h1 className="font-bold mb-4 text-xl">
         <a href="#blog">Blog Posts</a>
       </h1>
-      <p className="leading-relaxed text-[#555] dark:text-neutral-300">Coming soon...</p>
+      {/* FOR DEBUGGING PURPOSES ONLY */}
+      <Card
+        title="Coming soon"
+        url="http://localhost:3000/"
+        type="blog"
+        year={2023}
+        disabled
+      />
     </section>
   );
 };

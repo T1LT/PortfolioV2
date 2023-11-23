@@ -1,0 +1,61 @@
+"use client";
+
+interface CardProps {
+  title: string;
+  description?: string;
+  url: string;
+  type: string;
+  year?: number;
+  disabled?: boolean;
+}
+
+import Image from "next/image";
+import { FaArrowRight } from "react-icons/fa";
+
+const Card = ({ title, description, url, type, year, disabled }: CardProps) => {
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    if (disabled) return;
+  };
+  
+  return (
+    <div
+      className={`${
+        disabled ? "cursor-not-allowed" : "cursor-pointer"
+      } px-6 py-8 my-2 group dark:border dark:border-[#252525] rounded-md hover:shadow-md hover:bg-neutral-100 hover:dark:bg-[rgb(45,45,45)] transition duration-300`}
+    >
+      <a
+        href={url}
+        target="_blank"
+        rel="noreferrer"
+        className={`flex items-center gap-6 ${
+          disabled ? "cursor-not-allowed" : "cursor-pointer"
+        }`}
+        onClick={handleClick}
+      >
+        <Image
+          src={`/images/${title.replace(" ", "")}.png`}
+          width={125}
+          height={125}
+          alt={`${title} preview`}
+          className="rounded-md border-2 border-neutral-200 dark:border-neutral-600 group-hover:border-neutral-300 group-hover:dark:border-neutral-500 transition duration-300"
+        />
+        <div className="flex flex-col">
+          {type === "blog" && <p>{year}</p>}
+          <div className="flex items-center mb-2">
+            <span className="font-semibold text-[#555] dark:text-neutral-300 group-hover:text-black group-hover:dark:text-white transition duration-300">
+              {title}
+            </span>
+            <FaArrowRight className="text-sm ml-2 text-[#555] dark:text-neutral-300 group-hover:translate-x-2 transition-transform duration-300 group-hover:text-black group-hover:dark:text-white" />
+          </div>
+          {type === "project" && (
+            <p className="leading-relaxed text-sm text-[#555] dark:text-neutral-300">
+              {description}
+            </p>
+          )}
+        </div>
+      </a>
+    </div>
+  );
+};
+
+export default Card;

@@ -1,5 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
-import ProjectCard from "../ProjectCard";
+import Card from "../Card";
 
 const ProjectsSection = () => {
   return (
@@ -7,29 +7,29 @@ const ProjectsSection = () => {
       <h1 className="font-bold text-xl mb-4">
         <a href="#projects">PROJECTS</a>
       </h1>
-      <ProjectCard
+      <Card
         title="Rizzume"
         description="A resume grading tool to help job seekers optimize their resumes to match job descriptions better, built using Next.js, TypeScript, and Tailwind CSS."
         url="https://rizzume.vercel.app"
-        imgURL="https://storage.cloud.google.com/nr-portfolio-images-bucket/Rizzume.png"
+        type="project"
       />
-      <ProjectCard
+      <Card
         title="Resonance"
         description="A full-stack web application inspired by Discord, built using React, Redux, HTML5, CSS3, Ruby on Rails, PostgreSQL, and Action Cable."
         url="https://resonance-jzh3.onrender.com/"
-        imgURL="https://storage.cloud.google.com/nr-portfolio-images-bucket/Resonance.png"
+        type="project"
       />
-      <ProjectCard
+      <Card
         title="ViewFinder"
         description="A MERN stack app developed to help photographers find and share photo locations, built using Mongo, Express, React, Redux, Node, HTML5, and CSS3."
         url="https://viewfinder.onrender.com/"
-        imgURL="https://storage.cloud.google.com/nr-portfolio-images-bucket/ViewFinder.png"
+        type="project"
       />
-      <ProjectCard
+      <Card
         title="Planetary Devastation"
         description="A plain JavaScript game based on the popular MMO Agar.io, built using JavaScript, Canvas, HTML5, and CSS3."
         url="https://t1lt.github.io/PlanetaryDevastation/"
-        imgURL="https://storage.cloud.google.com/nr-portfolio-images-bucket/PlanetaryDevastation.png"
+        type="project"
       />
       <a
         href="https://github.com/T1LT?tab=repositories"

@@ -7,6 +7,7 @@ import CopyEmailButton from "@/components/CopyEmailButton";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaArrowRight } from "react-icons/fa";
+import NavLink from "@/components/NavLink";
 
 export default function Home() {
   return (
@@ -30,34 +31,10 @@ export default function Home() {
             </div>
             {/* LEFT MIDDLE - NAV LINKS */}
             <div className="flex flex-col gap-4">
-              <a
-                href="#about"
-                className="flex items-center text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
-              >
-                <span className="text-lg font-semibold">About Me</span>
-                <FaArrowRight className="text-sm ml-2 group-hover:translate-x-2 transition-transform duration-300" />
-              </a>
-              <a
-                href="#skills"
-                className="flex items-center text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
-              >
-                <span className="text-lg font-semibold">Skills</span>
-                <FaArrowRight className="text-sm ml-2 group-hover:translate-x-2 transition-transform duration-300" />
-              </a>
-              <a
-                href="#projects"
-                className="flex items-center text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
-              >
-                <span className="text-lg font-semibold">Projects</span>
-                <FaArrowRight className="text-sm ml-2 group-hover:translate-x-2 transition-transform duration-300" />
-              </a>
-              <a
-                href="#blog"
-                className="flex items-center text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
-              >
-                <span className="text-lg font-semibold">Blog Posts</span>
-                <FaArrowRight className="text-sm ml-2 group-hover:translate-x-2 transition-transform duration-300" />
-              </a>
+              <NavLink title="About Me" /> 
+              <NavLink title="Skills" /> 
+              <NavLink title="Projects" />
+              <NavLink title="Blog Posts" />
             </div>
             {/* LEFT BOTTOM - CONTACT INFO */}
             <div className="flex gap-8">

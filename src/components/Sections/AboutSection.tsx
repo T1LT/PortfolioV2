@@ -24,7 +24,7 @@ const AboutSection = () => {
           LTT
         </a>
         , and similar content creators, I was always interested in the latest
-        tech. I went on to pursue a degree in Computer Science and that's where
+        tech. I went on to pursue a degree in Computer Science and that&apos;s where
         my journey into the depths of Web Development began.
       </p>
       <p className="leading-relaxed mb-16 text-[#555] dark:text-neutral-300">

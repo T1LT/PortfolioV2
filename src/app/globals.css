@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: rgb(30, 30, 30);
+  --background: rgb(255, 255, 255);
+}
+
+[data-theme="dark"] {
+  --background: rgb(30, 30, 30);
+  --foreground: rgb(255, 255, 255);
+}
+
+::selection {
+  background: #8884;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* body * {
+  @apply transition-colors duration-300;
+} */
+
+body {
+  color: rgb(var(--foreground));
+  background: rgb(var(--background));
+  height: 100vh;
+}

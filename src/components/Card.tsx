@@ -30,7 +30,7 @@ const Card = ({ title, description, url, type, year, disabled }: CardProps) => {
       <div
         className={`${
           disabled ? "cursor-not-allowed" : "cursor-pointer"
-        } px-2 py-4 sm:px-6 sm:py-8 flex flex-col sm:flex-row items-start sm:items-center gap-6 group rounded-md hover:shadow-md hover:bg-neutral-100 hover:dark:bg-[rgb(45,45,45)] transition duration-300`}
+        } px-4 py-4 sm:px-6 sm:py-8 flex flex-col sm:flex-row items-start sm:items-center gap-6 group rounded-md hover:shadow-md hover:bg-neutral-100 hover:dark:bg-[rgb(45,45,45)] transition duration-300`}
         onClick={handleClick}
       >
         <Image

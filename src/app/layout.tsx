@@ -7,9 +7,17 @@ import ToasterProvider from "@/providers/ToasterProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  // CHANGE AFTER DOMAIN SHIFT
+  metadataBase: new URL("https://portfolio-v2-t1lt.vercel.app/"),
   title: "Nishant Racherla",
   description:
     "Nishant Racherla is a passionate Full-Stack Web Developer, skilled in React, Next.js, Redux, TypeScript, and more!",
+  openGraph: {
+    images: "/opengraph-image.png",
+  },
+  twitter: {
+    images: "/twitter-image.png",
+  },
 };
 
 export default function RootLayout({

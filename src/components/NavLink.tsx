@@ -2,12 +2,13 @@ import { FaArrowRight } from "react-icons/fa";
 
 interface NavLinkProps {
   title: string;
+  href: string;
 }
 
-const NavLink = ({ title }: NavLinkProps) => {
+const NavLink = ({ title, href }: NavLinkProps) => {
   return (
     <a
-      href="#about"
+      href={href}
       className="flex items-center text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
     >
       <span className="text-lg font-semibold">{title}</span>

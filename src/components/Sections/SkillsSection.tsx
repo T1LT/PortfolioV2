@@ -16,12 +16,12 @@ import {
   SiPostgresql,
   SiGit,
 } from "react-icons/si";
-// import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 
 const SkillsSection = () => {
   return (
     <section id="skills" className="mb-16">
-      <h1 className="font-bold text-xl mb-8">
+      <h1 className="font-bold text-lg sm:text-xl mb-8">
         <a href="#skills">SKILLS</a>
       </h1>
       <div className="grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-8 mb-8">
@@ -33,7 +33,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiReact className="text-5xl" />
-            <h2>React</h2>
+            <h2 className="text-sm sm:text-base">React</h2>
           </a>
         </div>
 
@@ -45,7 +45,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiNextdotjs className="text-5xl group-hover:text-black group-hover:bg-white rounded-full transition duration-300" />
-            <h2 className="group-hover:text-black group-hover:dark:text-white transition duration-300">
+            <h2 className="text-sm sm:text-base group-hover:text-black group-hover:dark:text-white transition duration-300">
               Next.js
             </h2>
           </a>
@@ -59,7 +59,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiRedux className="text-5xl" />
-            <h2>Redux</h2>
+            <h2 className="text-sm sm:text-base">Redux</h2>
           </a>
         </div>
 
@@ -71,7 +71,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiTypescript className="text-5xl" />
-            <h2>TypeScript</h2>
+            <h2 className="text-sm sm:text-base">TypeScript</h2>
           </a>
         </div>
 
@@ -83,7 +83,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiJavascript className="text-5xl" />
-            <h2>JavaScript</h2>
+            <h2 className="text-sm sm:text-base">JavaScript</h2>
           </a>
         </div>
 
@@ -95,7 +95,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4 text-center"
           >
             <SiTailwindcss className="text-5xl" />
-            <h2>Tailwind CSS</h2>
+            <h2 className="text-sm sm:text-base">Tailwind CSS</h2>
           </a>
         </div>
 
@@ -107,7 +107,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiHtml5 className="text-5xl" />
-            <h2>HTML5</h2>
+            <h2 className="text-sm sm:text-base">HTML5</h2>
           </a>
         </div>
 
@@ -119,7 +119,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiCss3 className="text-5xl" />
-            <h2>CSS3</h2>
+            <h2 className="text-sm sm:text-base">CSS3</h2>
           </a>
         </div>
 
@@ -131,7 +131,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4 hover:text-[#1A202C] hover:dark:text-white transition duration-300"
           >
             <SiPrisma className="text-5xl" />
-            <h2>Prisma</h2>
+            <h2 className="text-sm sm:text-base">Prisma</h2>
           </a>
         </div>
 
@@ -143,7 +143,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiNodedotjs className="text-5xl" />
-            <h2>Node.js</h2>
+            <h2 className="text-sm sm:text-base">Node.js</h2>
           </a>
         </div>
 
@@ -155,7 +155,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiExpress className="text-5xl" />
-            <h2>Express</h2>
+            <h2 className="text-sm sm:text-base">Express</h2>
           </a>
         </div>
 
@@ -167,7 +167,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4 text-center"
           >
             <SiRubyonrails className="text-5xl" />
-            <h2>Ruby on Rails</h2>
+            <h2 className="text-sm sm:text-base">Ruby on Rails</h2>
           </a>
         </div>
 
@@ -179,7 +179,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiRuby className="text-5xl" />
-            <h2>Ruby</h2>
+            <h2 className="text-sm sm:text-base">Ruby</h2>
           </a>
         </div>
 
@@ -191,7 +191,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiMongodb className="text-5xl" />
-            <h2>MongoDB</h2>
+            <h2 className="text-sm sm:text-base">MongoDB</h2>
           </a>
         </div>
 
@@ -203,7 +203,7 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiPostgresql className="text-5xl" />
-            <h2>PostgreSQL</h2>
+            <h2 className="text-sm sm:text-base">PostgreSQL</h2>
           </a>
         </div>
 
@@ -215,19 +215,19 @@ const SkillsSection = () => {
             className="flex flex-col items-center gap-4"
           >
             <SiGit className="text-5xl" />
-            <h2>Git</h2>
+            <h2 className="text-sm sm:text-base">Git</h2>
           </a>
         </div>
       </div>
-      {/* <a
+      <a
         href="/resume.pdf"
         target="_blank"
         rel="noreferrer"
-        className="flex items-center mb-16 text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
+        className="flex lg:hidden items-center mb-16 text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
       >
-        <span className="text-lg font-semibold">View Full Resume</span>
+        <span className="text-base sm:text-lg font-semibold">View Full Resume</span>
         <FaArrowRight className="text-sm ml-2 group-hover:translate-x-2 transition-transform duration-300" />
-      </a> */}
+      </a>
     </section>
   );
 };

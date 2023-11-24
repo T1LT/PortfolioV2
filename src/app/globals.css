@@ -22,12 +22,8 @@
   scrollbar-width: none;
 }
 
-/* body * {
-  @apply transition-colors duration-300;
-} */
-
 body {
   color: rgb(var(--foreground));
   background: rgb(var(--background));
-  height: 100vh;
+  min-height: 100%;
 }

@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col items-center justify-between py-4 px-6 lg:px-8 xl:px-24">
-        <div className="flex flex-col lg:flex-row justify-evenly w-full h-full">
+      <div className="flex flex-col items-center justify-between px-6 lg:px-8 xl:px-24">
+        <div className="flex flex-col lg:flex-row justify-evenly w-full min-h-screen">
           {/* LEFT SECTION */}
-          <div className="w-full xl:w-[45%] h-full p-2 xl:p-8 flex flex-col justify-between gap-8 lg:gap-32">
+          <div className="w-full xl:w-[45%] mt-4 md:mt-0 lg:sticky lg:top-[88px] lg:h-[calc(100vh-88px)] p-2 xl:p-8 flex flex-col justify-between gap-8 lg:gap-32">
             {/* LEFT TOP - HEADER*/}
             <div>
               <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl mb-2">
@@ -39,7 +39,7 @@ export default function Home() {
                 href="/resume.pdf"
                 target="_blank"
                 rel="noreferrer"
-                className="flex items-center mb-16 text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
+                className="flex items-center text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
               >
                 <span className="text-lg font-semibold">View Full Resume</span>
                 <FaArrowRight className="text-sm ml-2 group-hover:translate-x-2 transition-transform duration-300" />
@@ -83,7 +83,7 @@ export default function Home() {
             </div>
           </div>
           {/* RIGHT SECTION */}
-          <div className="w-full xl:w-[45%] p-2 xl:p-8 overflow-y-scroll">
+          <div className="flex-grow w-full xl:w-[45%] p-2 xl:p-8 overflow-y-scroll">
             <AboutSection />
             <SkillsSection />
             <ProjectsSection />

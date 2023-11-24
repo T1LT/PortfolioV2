@@ -5,7 +5,7 @@ const AboutSection = () => {
         <a href="#about">ABOUT ME</a>
       </h1>
       <p className="leading-relaxed mb-4 text-[#555] dark:text-neutral-300">
-        Friendly, neighborhood Software Engineer based in California with a
+        Friendly neighborhood Software Engineer based in California with a
         drive to understand the theory behind Computer Science and master its
         application. Growing up watching{" "}
         <a

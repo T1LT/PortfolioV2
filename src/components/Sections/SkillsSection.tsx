@@ -16,7 +16,6 @@ import {
   SiPostgresql,
   SiGit,
 } from "react-icons/si";
-import { FaArrowRight } from "react-icons/fa";
 
 const SkillsSection = () => {
   return (
@@ -218,16 +217,7 @@ const SkillsSection = () => {
             <h2 className="text-sm sm:text-base">Git</h2>
           </a>
         </div>
-      </div>
-      <a
-        href="/resume.pdf"
-        target="_blank"
-        rel="noreferrer"
-        className="flex lg:hidden items-center mb-16 text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
-      >
-        <span className="text-base sm:text-lg font-semibold">View Full Resume</span>
-        <FaArrowRight className="text-sm ml-2 group-hover:translate-x-2 transition-transform duration-300" />
-      </a>
+      </div> 
     </section>
   );
 };

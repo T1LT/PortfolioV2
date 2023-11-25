@@ -41,7 +41,7 @@ export default function Home() {
                 rel="noreferrer"
                 className="flex items-center text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
               >
-                <span className="text-lg font-semibold">View Full Resume</span>
+                <span className="text-lg font-semibold">View Resume</span>
                 <FaArrowRight className="text-sm ml-2 group-hover:translate-x-2 transition-transform duration-300" />
               </a>
             </div>
@@ -85,8 +85,8 @@ export default function Home() {
           {/* RIGHT SECTION */}
           <div className="flex-grow w-full xl:w-[45%] p-2 xl:p-8 overflow-y-scroll">
             <AboutSection />
-            <SkillsSection />
             <ProjectsSection />
+            <SkillsSection />
             <BlogPostsSection />
           </div>
         </div>

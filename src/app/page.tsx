@@ -32,8 +32,8 @@ export default function Home() {
             {/* LEFT MIDDLE - NAV LINKS */}
             <div className="hidden lg:flex flex-col gap-4">
               <NavLink title="About Me" href="#about" />
-              <NavLink title="Skills" href="#skills" />
               <NavLink title="Projects" href="#projects" />
+              <NavLink title="Skills" href="#skills" />
               <NavLink title="Blog Posts" href="#blog" />
               <a
                 href="/resume.pdf"
@@ -83,7 +83,7 @@ export default function Home() {
             </div>
           </div>
           {/* RIGHT SECTION */}
-          <div className="flex-grow w-full xl:w-[45%] p-2 xl:p-8 overflow-y-scroll">
+          <div className="top-[88px] flex-grow w-full xl:w-[45%] p-2 xl:p-8">
             <AboutSection />
             <ProjectsSection />
             <SkillsSection />

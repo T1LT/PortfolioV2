@@ -19,7 +19,10 @@ import {
 
 const SkillsSection = () => {
   return (
-    <section id="skills" className="mb-16">
+    <section
+      id="skills"
+      className="mb-16 scroll-mt-[calc(88px+0.5rem)] xl:scroll-mt-[calc(88px+2rem)]"
+    >
       <h1 className="font-bold text-lg sm:text-xl mb-8">
         <a href="#skills">SKILLS</a>
       </h1>
@@ -217,7 +220,7 @@ const SkillsSection = () => {
             <h2 className="text-sm sm:text-base">Git</h2>
           </a>
         </div>
-      </div> 
+      </div>
     </section>
   );
 };

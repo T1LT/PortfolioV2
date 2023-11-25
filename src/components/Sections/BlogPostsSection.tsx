@@ -2,7 +2,10 @@ import Card from "../Card";
 
 const BlogPostsSection = () => {
   return (
-    <section id="blog">
+    <section
+      id="blog"
+      className="scroll-mt-[calc(88px+0.5rem)] xl:scroll-mt-[calc(88px+2rem)]"
+    >
       <h1 className="font-bold mb-4 text-xl">
         <a href="#blog">BLOG POSTS</a>
       </h1>

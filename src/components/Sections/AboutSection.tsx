@@ -2,7 +2,10 @@ import { FaArrowRight } from "react-icons/fa";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="mb-16">
+    <section
+      id="about"
+      className="mb-16 scroll-mt-[calc(88px+0.5rem)] xl:scroll-mt-[calc(88px+2rem)]"
+    >
       <h1 className="font-bold mb-4 text-lg sm:text-xl">
         <a href="#about">ABOUT ME</a>
       </h1>

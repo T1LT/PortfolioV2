@@ -3,7 +3,10 @@ import Card from "../Card";
 
 const ProjectsSection = () => {
   return (
-    <section id="projects">
+    <section
+      id="projects"
+      className="scroll-mt-[calc(88px+0.5rem)] xl:scroll-mt-[calc(88px+2rem)]"
+    >
       <h1 className="font-bold text-xl mb-4">
         <a href="#projects">PROJECTS</a>
       </h1>

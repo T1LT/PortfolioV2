@@ -51,7 +51,7 @@ const AboutSection = () => {
         href="/resume.pdf"
         target="_blank"
         rel="noreferrer"
-        className="flex lg:hidden items-center mt-4 text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
+        className="flex lg:hidden items-center mt-8 text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
       >
         <span className="text-base sm:text-lg font-semibold">View Resume</span>
         <FaArrowRight className="text-sm ml-2 group-hover:translate-x-2 transition-transform duration-300" />

@@ -15,7 +15,7 @@ const ProjectsSection = () => {
       </h1>
       <Card
         title="Rizzume"
-        description="A resume grading tool to help job seekers optimize their resumes to match job descriptions better, built using Next.js, TypeScript, and Tailwind CSS."
+        description="A resume grading tool to help job seekers optimize their resumes to match job descriptions better, built using the OpenAI API, Next.js, TypeScript, and Tailwind CSS."
         url="https://rizzume.vercel.app"
         type="project"
       />

@@ -23,7 +23,10 @@ const SkillsSection = () => {
       id="skills"
       className="mb-16 scroll-mt-[calc(88px+0.5rem)] xl:scroll-mt-[calc(88px+2rem)]"
     >
-      <h1 className="font-bold text-lg sm:text-xl mb-8">
+      <h1 className="font-bold text-lg sm:text-xl mb-8 group">
+        <span className="float-left opacity-0 group-hover:opacity-100 -ml-4 lg:-ml-8 mr-0 lg:mr-2 text-[#555] dark:text-neutral-500 transition duration-300">
+          #
+        </span>
         <a href="#skills">SKILLS</a>
       </h1>
       <div className="grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-8 mb-8">

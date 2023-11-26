@@ -6,7 +6,10 @@ const AboutSection = () => {
       id="about"
       className="mb-16 scroll-mt-[calc(88px+0.5rem)] xl:scroll-mt-[calc(88px+2rem)]"
     >
-      <h1 className="font-bold mb-4 text-lg sm:text-xl">
+      <h1 className="font-bold mb-4 text-lg sm:text-xl group">
+        <span className="float-left opacity-0 group-hover:opacity-100 -ml-4 lg:-ml-8 mr-0 lg:mr-2 text-[#555] dark:text-neutral-500 transition duration-300">
+          #
+        </span>
         <a href="#about">ABOUT ME</a>
       </h1>
       <p className="leading-relaxed mb-4 text-sm sm:text-base text-[#555] dark:text-neutral-300">

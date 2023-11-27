@@ -28,50 +28,57 @@ const BlogPostsPage = () => {
             title="Figma Config 2023 Visit"
             url="https://www.linkedin.com/posts/nishantracherla_config2023-activity-7079894882865086464-4GpP?utm_source=share&utm_medium=member_desktop"
             type="blog"
-            year={2023}
+            date="Jun 2023"
             src="LinkedIn"
+            readTime="1 min"
           />
           <Card
             title="Optimizing React App Performance, a thread - 4/4 🧵"
             url="https://www.linkedin.com/posts/nishantracherla_react-javascript-typescript-activity-7054559085941198848-CjSs?utm_source=share&utm_medium=member_desktop"
             type="blog"
-            year={2023}
+            date="Apr 2023"
             src="LinkedIn"
+            readTime="2 min"
           />
           <Card
             title="Optimizing React App Performance, a thread - 3/4 🧵"
             url="https://www.linkedin.com/posts/nishantracherla_react-reactjs-javascript-activity-7049765200551444481-pESj?utm_source=share&utm_medium=member_desktop"
             type="blog"
-            year={2023}
+            date="Feb 2023"
             src="LinkedIn"
+            readTime="1 min"
           />
           <Card
             title="Optimizing React App Performance, a thread - 2/4 🧵"
             url="https://www.linkedin.com/posts/nishantracherla_react-reactjs-javascript-activity-7041067892775280640-vkxX?utm_source=share&utm_medium=member_desktop"
             type="blog"
-            year={2023}
+            date="Feb 2023"
             src="LinkedIn"
+            readTime="2 min"
           />
           <Card
             title="Optimizing React App Performance, a thread - 1/4 🧵"
             url="https://www.linkedin.com/posts/nishantracherla_reactjs-reacthooks-javascript-activity-7038875601604141057-2xY1?utm_source=share&utm_medium=member_desktop"
             type="blog"
-            year={2023}
+            date="Feb 2023"
             src="LinkedIn"
+            readTime="3 min"
           />
           <Card
             title="Debouncing in React/JavaScript"
             url="https://www.linkedin.com/posts/nishantracherla_reactjs-javascript-activity-7031030341297426432-vFtI?utm_source=share&utm_medium=member_desktop"
             type="blog"
-            year={2023}
+            date="Jan 2023"
             src="LinkedIn"
+            readTime="3 min"
           />
           <Card
             title="Hoisting in JavaScript"
             url="https://www.linkedin.com/posts/nishantracherla_javascript-reactjs-activity-7029160146165522433-MMRV?utm_source=share&utm_medium=member_desktop"
             type="blog"
-            year={2023}
+            date="Jan 2023"
             src="LinkedIn"
+            readTime="2 min"
           />
         </div>
       </div>

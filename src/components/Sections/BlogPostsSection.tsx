@@ -19,22 +19,25 @@ const BlogPostsSection = () => {
           title="Figma Config 2023 Visit"
           url="https://www.linkedin.com/posts/nishantracherla_config2023-activity-7079894882865086464-4GpP?utm_source=share&utm_medium=member_desktop"
           type="blog"
-          year={2023}
+          date="Jun 2023"
           src="LinkedIn"
+          readTime="1 min"
         />
         <Card
           title="Optimizing React App Performance 4/4 🧵"
           url="https://www.linkedin.com/posts/nishantracherla_react-javascript-typescript-activity-7054559085941198848-CjSs?utm_source=share&utm_medium=member_desktop"
           type="blog"
-          year={2023}
+          date="Apr 2023"
           src="LinkedIn"
+          readTime="2 min"
         />
         <Card
           title="Optimizing React App Performance 3/4 🧵"
           url="https://www.linkedin.com/posts/nishantracherla_react-reactjs-javascript-activity-7049765200551444481-pESj?utm_source=share&utm_medium=member_desktop"
           type="blog"
-          year={2023}
+          date="Feb 2023"
           src="LinkedIn"
+          readTime="1 min"
         />
       </div>
       <Link

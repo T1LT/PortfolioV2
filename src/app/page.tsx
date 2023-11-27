@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import AboutSection from "@/components/Sections/AboutSection";
 import SkillsSection from "@/components/Sections/SkillsSection";
@@ -20,7 +21,7 @@ export default function Home() {
             {/* LEFT TOP - HEADER*/}
             <div>
               <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl mb-2">
-                <a href="#">Nishant Racherla</a>
+                <Link href="/">Nishant Racherla</Link>
               </h1>
               <h2 className="font-semibold text-lg sm:text-xl mt-2">
                 Full-Stack Software Engineer

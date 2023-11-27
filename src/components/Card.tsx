@@ -5,15 +5,24 @@ interface CardProps {
   description?: string;
   url: string;
   type: string;
-  year?: number;
+  date?: string;
   src?: string;
+  readTime?: string;
 }
 
 import Image from "next/image";
-import { FaArrowRight, FaLinkedin } from "react-icons/fa";
+import { FaArrowRight, FaLinkedin, FaBookReader } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa6";
 
-const Card = ({ title, description, url, type, year, src }: CardProps) => {
+const Card = ({
+  title,
+  description,
+  url,
+  type,
+  date,
+  src,
+  readTime,
+}: CardProps) => {
   return (
     <a href={url} target="_blank" rel="noreferrer">
       <div className="w-full px-4 py-4 sm:px-6 sm:py-8 flex flex-col sm:flex-row items-start sm:items-center gap-6 group rounded-md hover:shadow-md hover:bg-neutral-100 hover:dark:bg-[rgb(45,45,45)] transition duration-300">
@@ -29,10 +38,15 @@ const Card = ({ title, description, url, type, year, src }: CardProps) => {
         <div className="w-full flex flex-col">
           {type === "blog" && (
             <p className="flex items-center font-semibold text-neutral-400 dark:text-neutral-500 mb-2">
-              {year}
+              {date}
               <span className="mx-2">&bull;</span>
               {src === "LinkedIn" && <FaLinkedin className="text-lg" />}
               {src === "Medium" && <FaMedium className="text-lg" />}
+              <span className="mx-2">&bull;</span>
+              <span className="flex items-center gap-2">
+                <FaBookReader className="text-lg" />
+                {readTime}
+              </span>
             </p>
           )}
           <div className="w-full flex items-center justify-between sm:justify-start">

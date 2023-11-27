@@ -1,13 +1,14 @@
+import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import AboutSection from "@/components/Sections/AboutSection";
 import SkillsSection from "@/components/Sections/SkillsSection";
 import ProjectsSection from "@/components/Sections/ProjectsSection";
 import BlogPostsSection from "@/components/Sections/BlogPostsSection";
 import CopyEmailButton from "@/components/CopyEmailButton";
+import NavLink from "@/components/NavLink";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaArrowRight } from "react-icons/fa";
-import NavLink from "@/components/NavLink";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
             {/* LEFT TOP - HEADER*/}
             <div>
               <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl mb-2">
-                <a href="#">Nishant Racherla</a>
+                <Link href="/">Nishant Racherla</Link>
               </h1>
               <h2 className="font-semibold text-lg sm:text-xl mt-2">
                 Full-Stack Software Engineer

@@ -31,9 +31,15 @@ const ProjectsSection = () => {
         url="https://viewfinder.onrender.com/"
         type="project"
       />
+      <Card 
+        title="NutriDiet"
+        description="Your refined nutritional companion. Crafted with Next.js, TypeScript, Prisma, and Tailwind CSS, it swiftly provides food details and helps you discover nutrient-rich options effortlessly."
+        url="https://nutridiet.vercel.app/"
+        type="project"
+      />
       <Card
         title="Planetary Devastation"
-        description="A plain JavaScript game based on the popular MMO Agar.io, built using JavaScript, Canvas, HTML5, and CSS3."
+        description="A JavaScript game based on the popular MMO Agar.io, built using JavaScript, Canvas, HTML5, and CSS3."
         url="https://t1lt.github.io/PlanetaryDevastation/"
         type="project"
       />

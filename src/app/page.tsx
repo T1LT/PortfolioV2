@@ -4,10 +4,10 @@ import SkillsSection from "@/components/Sections/SkillsSection";
 import ProjectsSection from "@/components/Sections/ProjectsSection";
 import BlogPostsSection from "@/components/Sections/BlogPostsSection";
 import CopyEmailButton from "@/components/CopyEmailButton";
+import NavLink from "@/components/NavLink";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaArrowRight } from "react-icons/fa";
-import NavLink from "@/components/NavLink";
 
 export default function Home() {
   return (

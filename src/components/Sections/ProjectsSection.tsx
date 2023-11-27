@@ -31,9 +31,9 @@ const ProjectsSection = () => {
         url="https://viewfinder.onrender.com/"
         type="project"
       />
-      <Card 
+      <Card
         title="NutriDiet"
-        description="Your refined nutritional companion. Crafted with Next.js, TypeScript, Prisma, and Tailwind CSS, it swiftly provides food details and helps you discover nutrient-rich options effortlessly."
+        description="A nutritional companion crafted with Next.js, TypeScript, Prisma, and Tailwind CSS. Build to swiftly provide food details and help you discover nutrient-rich options effortlessly."
         url="https://nutridiet.vercel.app/"
         type="project"
       />

@@ -1,4 +1,6 @@
+import { FaArrowRight } from "react-icons/fa";
 import Card from "../Card";
+import Link from "next/link";
 
 const BlogPostsSection = () => {
   return (
@@ -20,6 +22,15 @@ const BlogPostsSection = () => {
         year={2023}
         disabled
       />
+      <Link
+        href="/blogposts"
+        className="flex items-center mt-4 text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
+      >
+        <span className="text-base sm:text-lg font-semibold">
+          View All Blog Posts
+        </span>
+        <FaArrowRight className="text-sm ml-2 group-hover:translate-x-2 transition-transform duration-300" />
+      </Link>
     </section>
   );
 };

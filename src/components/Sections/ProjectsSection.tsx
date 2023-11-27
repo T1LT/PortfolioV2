@@ -13,36 +13,38 @@ const ProjectsSection = () => {
         </span>
         <a href="#projects">PROJECTS</a>
       </h1>
-      <Card
-        title="Rizzume"
-        description="A resume grading tool to help job seekers optimize their resumes to match job descriptions better, built using the OpenAI API, Next.js, TypeScript, and Tailwind CSS."
-        url="https://rizzume.vercel.app"
-        type="project"
-      />
-      <Card
-        title="Resonance"
-        description="A full-stack web application inspired by Discord, built using React, Redux, HTML5, CSS3, Ruby on Rails, PostgreSQL, and Action Cable."
-        url="https://resonance-jzh3.onrender.com/"
-        type="project"
-      />
-      <Card
-        title="ViewFinder"
-        description="A MERN stack app developed to help photographers find and share photo locations, built using Mongo, Express, React, Redux, Node, HTML5, and CSS3."
-        url="https://viewfinder.onrender.com/"
-        type="project"
-      />
-      <Card
-        title="NutriDiet"
-        description="A nutritional companion crafted with Next.js, TypeScript, Prisma, and Tailwind CSS. Build to swiftly provide food details and help you discover nutrient-rich options effortlessly."
-        url="https://nutridiet.vercel.app/"
-        type="project"
-      />
-      <Card
-        title="Planetary Devastation"
-        description="A JavaScript game based on the popular MMO Agar.io, built using JavaScript, Canvas, HTML5, and CSS3."
-        url="https://t1lt.github.io/PlanetaryDevastation/"
-        type="project"
-      />
+      <div className="flex flex-col gap-2">
+        <Card
+          title="Rizzume"
+          description="A resume grading tool to help job seekers optimize their resumes to match job descriptions better, built using the OpenAI API, Next.js, TypeScript, and Tailwind CSS."
+          url="https://rizzume.vercel.app"
+          type="project"
+        />
+        <Card
+          title="Resonance"
+          description="A full-stack web application inspired by Discord, built using React, Redux, HTML5, CSS3, Ruby on Rails, PostgreSQL, and Action Cable."
+          url="https://resonance-jzh3.onrender.com/"
+          type="project"
+        />
+        <Card
+          title="ViewFinder"
+          description="A MERN stack app developed to help photographers find and share photo locations, built using Mongo, Express, React, Redux, Node, HTML5, and CSS3."
+          url="https://viewfinder.onrender.com/"
+          type="project"
+        />
+        <Card
+          title="NutriDiet"
+          description="A nutritional companion crafted with Next.js, TypeScript, Prisma, and Tailwind CSS. Build to swiftly provide food details and help you discover nutrient-rich options effortlessly."
+          url="https://nutridiet.vercel.app/"
+          type="project"
+        />
+        <Card
+          title="Planetary Devastation"
+          description="A JavaScript game based on the popular MMO Agar.io, built using JavaScript, Canvas, HTML5, and CSS3."
+          url="https://t1lt.github.io/PlanetaryDevastation/"
+          type="project"
+        />
+      </div>
       <a
         href="https://github.com/T1LT?tab=repositories"
         target="_blank"

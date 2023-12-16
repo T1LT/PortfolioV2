@@ -27,13 +27,14 @@ const Card = ({
     <a href={url} target="_blank" rel="noreferrer">
       <div className="w-full px-4 py-4 sm:px-6 sm:py-8 flex flex-col sm:flex-row items-start sm:items-center gap-6 group rounded-md hover:shadow-md hover:bg-neutral-100 hover:dark:bg-[rgb(45,45,45)] transition duration-300">
         {type === "project" && (
-          <Image
-            src={`/images/${title.replace(" ", "")}.png`}
-            width={125}
-            height={125}
-            alt={`${title} preview`}
-            className="mb-4 sm:mb-0 rounded-md border-2 border-neutral-200 dark:border-neutral-600 group-hover:border-neutral-300 group-hover:dark:border-neutral-500 transition duration-300"
-          />
+          <div className="w-36 h-16 relative">
+            <Image
+              src={`/images/${title.replace(" ", "")}.png`}
+              alt={`${title} preview`}
+              fill
+              className="mb-4 sm:mb-0 rounded-md border-2 border-neutral-200 dark:border-neutral-600 group-hover:border-neutral-300 group-hover:dark:border-neutral-500 transition duration-300"
+            />
+          </div>
         )}
         <div className="w-full flex flex-col">
           {type === "blog" && (

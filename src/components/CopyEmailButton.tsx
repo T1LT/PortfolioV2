@@ -5,6 +5,9 @@ import { toast } from "react-hot-toast";
 
 const CopyEmailButton = () => {
   const handleCopyEmail = async () => {
+    if ("vibrate" in navigator) {
+      navigator.vibrate(50);
+    }
     await navigator.clipboard.writeText("nishant.racherla@gmail.com");
     toast.success("Copied to Clipboard!");
   };

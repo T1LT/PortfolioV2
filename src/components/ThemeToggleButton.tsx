@@ -10,6 +10,9 @@ const ThemeToggleButton = () => {
   const { theme, setTheme } = useTheme();
 
   const handleClick = () => {
+    if ("vibrate" in navigator) {
+      navigator.vibrate(50);
+    }
     if (theme === "dark") setTheme("light");
     else setTheme("dark");
   };

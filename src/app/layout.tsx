@@ -28,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} antialiased bg-white dark:bg-black`}>
+      <body className={`${inter.className} antialiased bg-white dark:bg-[rgb(17,17,16)]`}>
         <ToasterProvider />
         <Providers>{children}</Providers>
         <Analytics />

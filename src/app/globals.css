@@ -13,7 +13,7 @@
 }
 
 ::selection {
-  background: rgba(170, 170, 170, 0.4);
+  background: rgba(170, 170, 170, 0.3);
 }
 
 ::-webkit-scrollbar {

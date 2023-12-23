@@ -73,7 +73,7 @@ export default function Home() {
                 <FaInstagram className="text-2xl sm:text-3xl md:text-4xl text-neutral-500 hover:text-neutral-900 dark:hover:text-white transition duration-300" />
               </a>
               <a
-                href="https://x.com/NishantRacherla"
+                href="https://x.com/T1LTdev"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Link to my X/Twitter"

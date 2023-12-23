@@ -20,7 +20,7 @@ const AboutSection = () => {
           href="https://youtube.com/@mkbhd"
           target="_blank"
           rel="noreferrer"
-          className="font-semibold text-black dark:text-white hover:text-red-600 hover:dark:text-red-600 transition duration-300 border-b border-b-red-500"
+          className="font-semibold text-black dark:text-white hover:text-red-600 hover:dark:text-red-600 transition duration-300 border-b border-b-white hover:border-b-red-500"
         >
           MKBHD
         </a>
@@ -29,13 +29,13 @@ const AboutSection = () => {
           href="https://www.youtube.com/@LinusTechTips"
           target="_blank"
           rel="noreferrer"
-          className="font-semibold text-black dark:text-white hover:text-orange-600 hover:dark:text-orange-600 transition duration-300 border-b border-b-orange-500"
+          className="font-semibold text-black dark:text-white hover:text-orange-600 hover:dark:text-orange-600 transition duration-300 border-b border-b-white hover:border-b-orange-600"
         >
           LTT
         </a>
-        , and similar content creators, I have always been interested in the latest
-        tech. I went on to pursue a degree in Computer Science and that&apos;s
-        where my journey into the depths of Web Development began.
+        , and similar content creators, I have always been interested in the
+        latest tech. I went on to pursue a degree in Computer Science and
+        that&apos;s where my journey into the depths of Web Development began.
       </p>
       <p className="leading-relaxed text-sm sm:text-base text-[#555] dark:text-neutral-300">
         My other interests include{" "}

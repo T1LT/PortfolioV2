@@ -10,8 +10,10 @@ interface CardProps {
   readTime?: string;
 }
 
+import clsx from "clsx";
 import Image from "next/image";
 import { FaArrowRight, FaLinkedin, FaBookReader } from "react-icons/fa";
+import { FiArrowUpRight } from "react-icons/fi";
 import { FaMedium } from "react-icons/fa6";
 
 const Card = ({
@@ -24,14 +26,28 @@ const Card = ({
   readTime,
 }: CardProps) => {
   return (
-    <a href={url} target="_blank" rel="noreferrer">
-      <div className="w-full px-4 py-4 sm:px-6 sm:py-8 flex flex-col sm:flex-row items-start sm:items-center gap-6 group rounded-md hover:shadow-md hover:bg-neutral-100 hover:dark:bg-[rgb(45,45,45)] transition duration-300">
+    <a
+      href={url}
+      target="_blank"
+      rel="noreferrer"
+      className={clsx(type === "project" && "flex flex-col items-center")}
+    >
+      <div
+        className={clsx(
+          "px-4 py-4 sm:px-6 sm:py-8 flex flex-col items-start gap-6 group rounded-md hover:shadow-md hover:bg-neutral-100 hover:dark:bg-neutral-800 transition duration-300",
+          type === "project"
+            ? "w-[250px] sm:w-[300px] h-[300px]"
+            : "w-full sm:flex-row"
+        )}
+      >
         {type === "project" && (
           <div className="w-36 h-16 relative">
             <Image
               src={`/images/${title.replace(" ", "")}.png`}
               alt={`${title} preview`}
               fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              priority={true}
               className="mb-4 sm:mb-0 rounded-md border-2 border-neutral-200 dark:border-neutral-600 group-hover:border-neutral-300 group-hover:dark:border-neutral-500 transition duration-300"
             />
           </div>
@@ -50,11 +66,22 @@ const Card = ({
               </span>
             </p>
           )}
-          <div className="w-full flex items-center justify-between sm:justify-start">
+          <div
+            className={clsx(
+              "w-full flex items-center",
+              type === "project"
+                ? "justify-start"
+                : "sm:justify-start justify-between"
+            )}
+          >
             <span className="font-semibold text-[#555] dark:text-neutral-300 group-hover:text-black group-hover:dark:text-white transition duration-300">
               {title}
             </span>
-            <FaArrowRight className="text-sm ml-2 text-[#555] dark:text-neutral-300 group-hover:translate-x-2 transition-transform duration-300 group-hover:text-black group-hover:dark:text-white" />
+            {type === "project" ? (
+              <FiArrowUpRight className="ml-2 text-[#555] dark:text-neutral-300 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 group-hover:text-black group-hover:dark:text-white" />
+            ) : (
+              <FaArrowRight className="text-sm ml-2 text-[#555] dark:text-neutral-300 group-hover:translate-x-2 transition-transform duration-300 group-hover:text-black group-hover:dark:text-white" />
+            )}
           </div>
           {type === "project" && (
             <p className="leading-relaxed text-sm text-[#555] dark:text-neutral-300">

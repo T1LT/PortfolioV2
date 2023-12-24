@@ -15,9 +15,9 @@ export default function Home() {
     <>
       <Navbar />
       <div className="flex flex-col items-center justify-between px-6 lg:px-8 xl:px-24">
-        <div className="flex flex-col lg:flex-row justify-evenly w-full min-h-screen">
+        <div className="flex flex-col xl:flex-row justify-evenly w-full min-h-screen">
           {/* LEFT SECTION */}
-          <div className="w-full xl:w-[45%] mt-4 md:mt-0 lg:sticky lg:top-[88px] lg:h-[calc(100vh-88px)] p-2 xl:p-8 flex flex-col justify-between gap-8 lg:gap-32">
+          <div className="w-full xl:w-[45%] mt-4 md:mt-0 xl:sticky xl:top-[88px] xl:h-[calc(100vh-88px)] p-2 xl:p-8 flex flex-col justify-between gap-8 xl:gap-32">
             {/* LEFT TOP - HEADER*/}
             <div>
               <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl mb-2">
@@ -31,7 +31,7 @@ export default function Home() {
               </p>
             </div>
             {/* LEFT MIDDLE - NAV LINKS */}
-            <div className="hidden lg:flex flex-col gap-4">
+            <div className="hidden xl:flex flex-col gap-4">
               <NavLink title="About Me" href="#about" />
               <NavLink title="Projects" href="#projects" />
               <NavLink title="Skills" href="#skills" />
@@ -47,7 +47,7 @@ export default function Home() {
               </a>
             </div>
             {/* LEFT BOTTOM - CONTACT INFO */}
-            <div className="flex gap-8 mb-16 lg:mb-4">
+            <div className="flex gap-8 mb-16 xl:mb-4">
               <a
                 href="https://github.com/T1LT"
                 target="_blank"

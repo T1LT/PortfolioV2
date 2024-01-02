@@ -8,7 +8,7 @@ import CopyEmailButton from "@/components/CopyEmailButton";
 import NavLink from "@/components/NavLink";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
-import { FaArrowRight } from "react-icons/fa";
+import { ArrowUpRight } from "lucide-react";
 
 export default function Home() {
   return (
@@ -40,10 +40,10 @@ export default function Home() {
                 href="/resume.pdf"
                 target="_blank"
                 rel="noreferrer"
-                className="w-max flex items-center text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
+                className="mt-10 w-max flex items-center text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
               >
                 <span className="text-lg font-semibold">View Resume</span>
-                <FaArrowRight className="text-sm ml-2 group-hover:translate-x-2 transition-transform duration-300" />
+                <ArrowUpRight className="h-5 w-5 font-semibold ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300"/>
               </a>
             </div>
             {/* LEFT BOTTOM - CONTACT INFO */}

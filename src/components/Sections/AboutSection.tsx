@@ -1,4 +1,4 @@
-import { FaArrowRight } from "react-icons/fa";
+import { ArrowUpRight } from "lucide-react";
 
 const AboutSection = () => {
   return (
@@ -57,10 +57,10 @@ const AboutSection = () => {
         href="/resume.pdf"
         target="_blank"
         rel="noreferrer"
-        className="flex lg:hidden items-center mt-8 text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
+        className="flex xl:hidden items-center mt-8 text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
       >
         <span className="text-base sm:text-lg font-semibold">View Resume</span>
-        <FaArrowRight className="text-sm ml-2 group-hover:translate-x-2 transition-transform duration-300" />
+        <ArrowUpRight className="h-4 w-4 sm:h-5 sm:w-5 font-semibold ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300" />
       </a>
     </section>
   );

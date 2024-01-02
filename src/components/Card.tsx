@@ -12,7 +12,7 @@ interface CardProps {
 
 import clsx from "clsx";
 import Image from "next/image";
-import { FaArrowRight, FaLinkedin, FaBookReader } from "react-icons/fa";
+import { FaLinkedin, FaBookReader } from "react-icons/fa";
 import { FiArrowUpRight } from "react-icons/fi";
 import { FaMedium } from "react-icons/fa6";
 
@@ -77,11 +77,7 @@ const Card = ({
             <span className="font-semibold text-[#555] dark:text-neutral-300 group-hover:text-black group-hover:dark:text-white transition duration-300">
               {title}
             </span>
-            {type === "project" ? (
-              <FiArrowUpRight className="ml-2 text-[#555] dark:text-neutral-300 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 group-hover:text-black group-hover:dark:text-white" />
-            ) : (
-              <FaArrowRight className="text-sm ml-2 text-[#555] dark:text-neutral-300 group-hover:translate-x-2 transition-transform duration-300 group-hover:text-black group-hover:dark:text-white" />
-            )}
+            <FiArrowUpRight className="ml-2 text-[#555] dark:text-neutral-300 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 group-hover:text-black group-hover:dark:text-white" />
           </div>
           {type === "project" && (
             <p className="leading-relaxed text-sm text-[#555] dark:text-neutral-300">

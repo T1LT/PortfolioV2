@@ -1,6 +1,5 @@
 "use client";
 
-import { FaArrowRight } from "react-icons/fa";
 import Card from "../Card";
 import {
   Carousel,
@@ -9,6 +8,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { ArrowUpRight } from "lucide-react";
 
 const ProjectsSection = () => {
   return (
@@ -79,7 +79,7 @@ const ProjectsSection = () => {
         <span className="text-base sm:text-lg font-semibold">
           View All Project Repositories
         </span>
-        <FaArrowRight className="text-sm ml-2 group-hover:translate-x-2 transition-transform duration-300" />
+        <ArrowUpRight className="h-4 w-4 sm:h-5 sm:w-5 font-semibold ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300" />
       </a>
     </section>
   );

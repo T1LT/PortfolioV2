@@ -1,18 +1,19 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import Providers from "@/providers/ThemeProvider";
 import ToasterProvider from "@/providers/ToasterProvider";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://nishantracherla.com/"),
   title: "Nishant Racherla",
   description:
-    "Nishant Racherla is a passionate Full-Stack Web Developer, skilled in React, Next.js, Redux, TypeScript, and more!",
+    "Nishant Racherla is a passionate Full-Stack Web Developer, skilled in Next.js, React, Redux, TypeScript, and more!",
   openGraph: {
     images: "/opengraph-image.png",
   },
@@ -29,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${inter.className} antialiased bg-white dark:bg-[rgb(17,17,16)]`}
+        className={`${GeistSans.className} bg-white dark:bg-[rgb(17,17,16)]`}
       >
         <ToasterProvider />
         <Providers>{children}</Providers>

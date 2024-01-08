@@ -84,3 +84,7 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+html, body {
+  font-synthesis-weight: none;
+}

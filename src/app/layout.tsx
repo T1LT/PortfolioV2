@@ -1,13 +1,10 @@
 import type { Metadata } from "next";
-// import { Inter } from "next/font/google";
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import Providers from "@/providers/ThemeProvider";
 import ToasterProvider from "@/providers/ToasterProvider";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-
-// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://nishantracherla.com/"),

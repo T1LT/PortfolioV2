@@ -30,18 +30,6 @@ const SkillsSection = () => {
         <a href="#skills">SKILLS</a>
       </h1>
       <div className="grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-8 mb-8">
-        <div className="text-neutral-500 hover:text-[#149ECA] transition duration-300">
-          <a
-            href="https://react.dev"
-            target="_blank"
-            rel="noreferrer"
-            className="flex flex-col items-center gap-4"
-          >
-            <SiReact className="text-5xl" />
-            <h2 className="text-sm sm:text-base">React</h2>
-          </a>
-        </div>
-
         <div className="text-neutral-500 group">
           <a
             href="https://nextjs.org/"
@@ -53,6 +41,18 @@ const SkillsSection = () => {
             <h2 className="text-sm sm:text-base group-hover:text-black group-hover:dark:text-white transition duration-300">
               Next.js
             </h2>
+          </a>
+        </div>
+
+        <div className="text-neutral-500 hover:text-[#149ECA] transition duration-300">
+          <a
+            href="https://react.dev"
+            target="_blank"
+            rel="noreferrer"
+            className="flex flex-col items-center gap-4"
+          >
+            <SiReact className="text-5xl" />
+            <h2 className="text-sm sm:text-base">React</h2>
           </a>
         </div>
 

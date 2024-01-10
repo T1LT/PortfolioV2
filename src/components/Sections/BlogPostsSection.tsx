@@ -42,7 +42,7 @@ const BlogPostsSection = () => {
       </div>
       <Link
         href="/blogposts"
-        className="flex items-center my-4 text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
+        className="flex w-max items-center my-4 text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
       >
         <span className="text-base sm:text-lg font-semibold">
           View All Blog Posts

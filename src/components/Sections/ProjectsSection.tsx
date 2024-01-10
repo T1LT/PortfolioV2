@@ -74,7 +74,7 @@ const ProjectsSection = () => {
         href="https://github.com/T1LT?tab=repositories"
         target="_blank"
         rel="noreferrer"
-        className="flex items-center mt-4 xl:mt-8 mb-16 text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
+        className="flex w-max items-center mt-4 xl:mt-8 mb-16 text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"
       >
         <span className="text-base sm:text-lg font-semibold">
           View All Project Repositories

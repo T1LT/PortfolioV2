@@ -48,7 +48,7 @@ const Card = ({
               fill
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               priority={true}
-              className="mb-4 sm:mb-0 rounded-md border-2 border-neutral-200 dark:border-neutral-600 group-hover:border-neutral-300 group-hover:dark:border-neutral-500 transition duration-300"
+              className="animate-reveal mb-4 sm:mb-0 rounded-md border-2 border-neutral-200 dark:border-neutral-600 group-hover:border-neutral-300 group-hover:dark:border-neutral-500 transition duration-300"
             />
           </div>
         )}

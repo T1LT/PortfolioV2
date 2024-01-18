@@ -16,4 +16,4 @@ Welcome to my portfolio website's repository! This project is built using Next.j
 3. Install dependencies: `npm i`
 
 ### Development
-Run the development server: `npm run dev`
+Run the development server: `npm run dev` or `bun dev`

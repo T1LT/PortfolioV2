@@ -27,6 +27,14 @@ const ProjectsSection = () => {
           <CarouselContent>
             <CarouselItem className="md:basis-1/2 xl:basis-full 2xl:basis-1/2 min-[2500px]:basis-1/3">
               <Card
+                title="DishCraft"
+                description="One-stop store for all your recipes. Built for developers using Next.js, Drizzle, Neon (Serverless Postgres), Vercel KV and Blob Store, and TypeScript. Hosted on Vercel."
+                url="https://dishcraft.vercel.app"
+                type="project"
+              />
+            </CarouselItem>
+            <CarouselItem className="md:basis-1/2 xl:basis-full 2xl:basis-1/2 min-[2500px]:basis-1/3">
+              <Card
                 title="Rizzume"
                 description="A resume grading tool to help job seekers optimize their resumes to match job descriptions better, built using the OpenAI API, Next.js, TypeScript, and Tailwind CSS."
                 url="https://rizzume.vercel.app"

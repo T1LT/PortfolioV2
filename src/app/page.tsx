@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import AboutSection from "@/components/Sections/AboutSection";
 import SkillsSection from "@/components/Sections/SkillsSection";

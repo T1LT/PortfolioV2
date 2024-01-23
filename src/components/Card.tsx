@@ -15,6 +15,7 @@ import Image from "next/image";
 import { FaLinkedin, FaBookReader } from "react-icons/fa";
 import { FiArrowUpRight } from "react-icons/fi";
 import { FaMedium } from "react-icons/fa6";
+import { BsTwitterX } from "react-icons/bs";
 
 const Card = ({
   title,
@@ -59,6 +60,7 @@ const Card = ({
               <span className="mx-2">&bull;</span>
               {src === "LinkedIn" && <FaLinkedin className="text-lg" />}
               {src === "Medium" && <FaMedium className="text-lg" />}
+              {src === "Twitter" && <BsTwitterX className="text-lg" />}
               <span className="mx-2">&bull;</span>
               <span className="flex items-center gap-2">
                 <FaBookReader className="text-lg" />

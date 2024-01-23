@@ -25,6 +25,14 @@ const BlogPostsPage = () => {
         </div>
         <div className="w-full lg:w-1/2 flex flex-col gap-2">
           <Card
+            title="DishCraft Takeaways/Thoughts Thread 🧵"
+            url="https://twitter.com/T1LTdev/status/1749727383660478766"
+            type="blog"
+            date="Jan 2024"
+            src="Twitter"
+            readTime="3 min"
+          />
+          <Card
             title="Figma Config 2023 Visit"
             url="https://www.linkedin.com/posts/nishantracherla_config2023-activity-7079894882865086464-4GpP?utm_source=share&utm_medium=member_desktop"
             type="blog"

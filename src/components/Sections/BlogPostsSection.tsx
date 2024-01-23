@@ -16,6 +16,14 @@ const BlogPostsSection = () => {
       </h1>
       <div className="flex flex-col gap-2">
         <Card
+          title="DishCraft Takeaways/Thoughts Thread 🧵"
+          url="https://twitter.com/T1LTdev/status/1749727383660478766"
+          type="blog"
+          date="Jan 2024"
+          src="Twitter"
+          readTime="3 min"
+        />
+        <Card
           title="Figma Config 2023 Visit"
           url="https://www.linkedin.com/posts/nishantracherla_config2023-activity-7079894882865086464-4GpP?utm_source=share&utm_medium=member_desktop"
           type="blog"
@@ -30,14 +38,6 @@ const BlogPostsSection = () => {
           date="Apr 2023"
           src="LinkedIn"
           readTime="2 min"
-        />
-        <Card
-          title="Optimizing React App Performance 3/4 🧵"
-          url="https://www.linkedin.com/posts/nishantracherla_react-reactjs-javascript-activity-7049765200551444481-pESj?utm_source=share&utm_medium=member_desktop"
-          type="blog"
-          date="Feb 2023"
-          src="LinkedIn"
-          readTime="1 min"
         />
       </div>
       <Link

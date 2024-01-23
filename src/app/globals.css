@@ -87,4 +87,5 @@
 
 html, body {
   font-synthesis-weight: none;
+  scroll-behavior: smooth;
 }

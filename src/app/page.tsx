@@ -20,11 +20,11 @@ export default function Home() {
           <div className="w-full xl:w-[45%] mt-4 md:mt-0 xl:sticky xl:top-[88px] xl:h-[calc(100vh-88px)] p-2 xl:p-8 flex flex-col justify-between gap-8 xl:gap-32">
             {/* LEFT TOP - HEADER*/}
             <div>
-              <Link href="/">
+              <a href="#">
                 <h1 className="font-semibold sm:font-bold text-3xl sm:text-4xl md:text-5xl mb-2">
                   Nishant Racherla
                 </h1>
-              </Link>
+              </a>
               <h2 className="font-medium sm:font-semibold text-lg sm:text-xl mt-2">
                 Full-Stack Software Engineer
               </h2>

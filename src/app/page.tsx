@@ -8,8 +8,13 @@ import NavLink from "@/components/NavLink";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { ArrowUpRight } from "lucide-react";
+import { headers } from "next/headers";
 
 export default function Home() {
+  const head = headers();
+  const country = head.get("x-vercel-ip-country");
+  console.log({ country });
+
   return (
     <>
       <Navbar />

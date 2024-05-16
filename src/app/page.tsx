@@ -13,7 +13,6 @@ import { headers } from "next/headers";
 export default function Home() {
   const head = headers();
   const country = head.get("x-vercel-ip-country");
-  console.log({ country });
 
   return (
     <>
@@ -43,7 +42,7 @@ export default function Home() {
               <NavLink title="Skills" href="#skills" />
               <NavLink title="Blog Posts" href="#blog" />
               <a
-                href="/resume.pdf"
+                href={country === "IN" ? "/resume-india.pdf" : "/resume.pdf"}
                 target="_blank"
                 rel="noreferrer"
                 className="mt-10 w-max flex items-center text-[#555] dark:text-neutral-500 hover:text-black hover:dark:text-white cursor-pointer transition duration-300 group"

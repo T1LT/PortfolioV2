@@ -1,10 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
-import { headers } from "next/headers";
 
 const AboutSection = () => {
-  const head = headers();
-  const country = head.get("x-vercel-ip-country");
-
   return (
     <section
       id="about"
@@ -17,7 +13,7 @@ const AboutSection = () => {
         <a href="#about">ABOUT ME</a>
       </h1>
       <p className="leading-relaxed mb-4 text-sm sm:text-base text-[#555] dark:text-neutral-300">
-        Friendly neighborhood Software Engineer based in {country === "IN" ? "Hyderabad" : "California"} with a drive
+        Friendly neighborhood Software Engineer based in California with a drive
         to understand the theory behind Computer Science and master its
         application. Growing up watching{" "}
         <a

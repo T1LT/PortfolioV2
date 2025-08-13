@@ -45,7 +45,7 @@ const ProjectsSection = () => {
               <Card
                 title="Resonance"
                 description="A full-stack web application inspired by Discord, built using React, Redux, HTML5, CSS3, Ruby on Rails, PostgreSQL, and Action Cable."
-                url="https://resonance-jzh3.onrender.com/"
+                url="https://github.com/T1LT/Resonance"
                 type="project"
               />
             </CarouselItem>
@@ -53,7 +53,7 @@ const ProjectsSection = () => {
               <Card
                 title="ViewFinder"
                 description="A MERN stack app developed to help photographers find and share photo locations, built using Mongo, Express, React, Redux, Node, HTML5, and CSS3."
-                url="https://viewfinder.onrender.com/"
+                url="https://github.com/T1LT/ViewFinder"
                 type="project"
               />
             </CarouselItem>
